@@ -1,10 +1,15 @@
 import React from 'react'
-import Calender from './class-component';
+import { Header,Content,Footer } from './func-components'
+import Calender from './class-components'
 
 function App() {
+  //แบบที่ 1 กำหนดฟังก์ชันทั้งหมดที่จะแสดงในแบบอาเรย์
   return(
     <>
-     <p><center><Calender/></center></p>
+    <Header/>
+    <p><center><Calender/></center></p>
+    <Content/>
+    <Footer/>
     </>
   )
   }

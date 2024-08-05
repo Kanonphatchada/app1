@@ -9,7 +9,7 @@ export default class Calender extends Component {
         const day = date.getDate()
         const month = monthNames[date.getMonth()]
         const year = date.getFullYear() 
-        return `วัน ${weekDay} ที่ ${day} ${month} ${year}` //กด alt กด 9 ตามด้วย 6
+        return `${weekDay} ${day} ${month} ${year}` //กด alt กด 9 ตามด้วย 6
     }
     render(){
         return <div>{this.getDate()}</div>
