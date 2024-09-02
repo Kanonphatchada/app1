@@ -1,7 +1,15 @@
-import React from 'react'
-import MessageBox from './state-func'
+import React from 'react';
+import { userContext } from './context';
+import Header2 from './context-header2';
+
 
 export default function App() {
-  return <MessageBox/>
-}
+  let[user,setUser] = React.useState('')
+  return(
+    <userContext.Provider value={[user,setUser]}>
 
+      <Header2/>
+
+    </userContext.Provider>
+  )
+}
