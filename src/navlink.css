@@ -1,0 +1,18 @@
+.nav {
+    background-color: #ced;
+    padding: 7px;
+    text-align: center;
+    margin: 15px;
+}
+.menu {  /*.ใช้สำหรับ inactive*/
+    color: blue;
+    text-decoration: none;
+    padding: 2px 5px;
+
+}
+.active_memu {
+    color: red;
+    background-color: yellow;
+    text-decoration: none;
+    padding: 2px 5px;
+}
